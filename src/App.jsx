@@ -8,14 +8,7 @@ import Section from './components/Section/Section';
 import { Wrapper } from './components/common/wrapper';
 
 class App extends Component {
-  // static defaultProps = {
-  //   initialValue: 0,
-  // };
-
   state = {
-    // good: this.props.initialValue,
-    // neutral: this.props.initialValue,
-    // bad: this.props.initialValue,
     good: 0,
     neutral: 0,
     bad: 0,
